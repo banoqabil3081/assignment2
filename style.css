@@ -1,0 +1,128 @@
+.button {
+    border: 1px solid #ffb400;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+.header {
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 250px);
+    top: 100px;
+}
+
+.header .icon-menu i {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    top: 15px;
+}
+
+.header.hide-header {
+    z-index: 0 !important;
+    opacity: 0;
+}
+
+.header ul.icon-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul.icon-menu li.icon-box {
+    width: 50px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 50%;
+    background: #2b2a2a;
+}
+
+.header ul.icon-menu li.icon-box:hover {
+    background: #ffb400;
+}
+
+.header ul.icon-menu li.icon-box i {
+    color: #ddd;
+    font-size: 19px;
+}
+
+.header .icon-box a {
+    display: block;
+    padding: 0;
+    width: 500px;
+    height: 50px;
+}
+
+.header .icon-box i.fa {
+    position: absolute;
+    pointer-events: none;
+}
+
+.header .icon-menu i {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    top: 15px;
+}
+
+.button {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1.4;
+    border-radius: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    position: relative;
+    z-index: 1;
+    padding: 16px 70px 16px 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    outline: none !important;
+}
+
+
+.button-icon {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    bottom: 0;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: #ffb400;
+    border-radius: 50%;
+}
